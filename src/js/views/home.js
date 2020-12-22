@@ -1,15 +1,10 @@
 import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
 
 export const Home = () => (
-	<div className="text-center mt-5">
-		<h1>Hello Rigo!</h1>
-		<p>
-			<img src={rigoImage} />
-		</p>
-		<a href="#" className="btn btn-success">
-			If you see this green button, bootstrap is working
-		</a>
+	<div className="card d-flex justify-content-center" style={{ width: "60%", height: "20%" }}>
+		<div className="card-body d-flex justify-content-center">
+			<h5 className="card-title">Card title</h5>
+		</div>
 	</div>
 );
